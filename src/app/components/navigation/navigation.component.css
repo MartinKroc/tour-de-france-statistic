@@ -1,0 +1,32 @@
+nav {
+  background-color: var(--mygreen);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+}
+ul {
+  list-style: none;
+  display: flex;
+  margin-right: 2rem;
+}
+li {
+  padding: .65rem;
+  margin: 0 1rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.ico {
+  margin-left: 2rem;
+}
+.pageName {
+  margin-left: .5rem;
+  font-size: 1.5rem;
+}
