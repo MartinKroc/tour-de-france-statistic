@@ -14,6 +14,7 @@ import { ChartsComponent } from './pages/charts/charts.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import {MatIconModule} from "@angular/material/icon";
 import {NgxEchartsModule} from "ngx-echarts";
+import { ChernoffComponent } from './pages/chernoff/chernoff/chernoff.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {NgxEchartsModule} from "ngx-echarts";
     MainComponent,
     TabularComponent,
     ChartsComponent,
-    NavigationComponent
+    NavigationComponent,
+    ChernoffComponent
   ],
   imports: [
     BrowserModule,

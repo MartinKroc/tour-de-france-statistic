@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {TabularComponent} from "./pages/tabular/tabular.component";
 import {ChartsComponent} from "./pages/charts/charts.component";
 import {MainComponent} from "./pages/main/main.component";
+import {ChernoffComponent} from "./pages/chernoff/chernoff/chernoff.component";
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'charts',
     component: ChartsComponent
+  },
+  {
+    path: 'faces',
+    component: ChernoffComponent
   }
 ];
 

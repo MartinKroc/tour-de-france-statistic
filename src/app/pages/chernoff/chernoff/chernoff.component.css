@@ -1,0 +1,41 @@
+.container {
+  max-width: 85vw;
+  margin: 0 auto;
+}
+
+canvas {
+  border-style: solid;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.col {
+  width: 100px;
+  height: 20px;
+  color: whitesmoke;
+  padding: 1rem;
+  font-weight: bolder;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
