@@ -1,0 +1,55 @@
+<h1>Podstawowe miary rozkładu</h1>
+<table>
+  <thead>
+  <tr>
+    <th>Parametr</th>
+    <th>Wartość</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Miara tendencji centralnej - Średnia arytmetyczna (Dystans wyścigów)</td>
+    <td>{{avg.toFixed(2)}}</td>
+  </tr>
+  <tr>
+    <td>Miara zróżnicowania - Odchylenie standardowe</td>
+    <td>{{variation.toFixed(2)}}</td>
+  </tr>
+  <tr>
+    <td>Współczynnik asymetrii</td>
+    <td>{{asym.toFixed(2)}}</td>
+  </tr>
+  <tr>
+    <td>Miara koncentracji</td>
+    <td>{{basicCorellation.toFixed(2)}}</td>
+  </tr>
+  </tbody>
+</table>
+
+<h1>Współczynniki korelacji dla par atrybutów</h1>
+<table>
+  <thead>
+  <tr>
+    <th>Para atrybutów</th>
+    <th>Współczynnik korelacji</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Średnia prędkość zwycięzcy - Całkowity dystans wyścigu</td>
+    <td>{{avgSpeedDistanceC.toFixed(3)}} {{selectCorellationCategory(avgSpeedDistanceC)}}</td>
+  </tr>
+  <tr>
+    <td>Całkowity dystans wyścigu - 	Liczba zawodników którzy ukończyli wyścig</td>
+    <td>{{distanceRivalsC.toFixed(3)}} {{selectCorellationCategory(distanceRivalsC)}}</td>
+  </tr>
+  <tr>
+    <td>Długość trwania zawodów (dni) - Liczba etapów</td>
+    <td>{{daysStageC.toFixed(3)}} {{selectCorellationCategory(daysStageC)}}</td>
+  </tr>
+  <tr>
+    <td>Średnia prędkość zwycięzcy - Liczba etapów</td>
+    <td>{{avgSpeedStagesC.toFixed(3)}} {{selectCorellationCategory(avgSpeedStagesC)}}</td>
+  </tr>
+  </tbody>
+</table>

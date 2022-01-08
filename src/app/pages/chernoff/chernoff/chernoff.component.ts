@@ -46,7 +46,7 @@ export class ChernoffComponent implements OnInit {
             this.stepX = 120;
           }
         } else {
-          console.log('dupa')
+          console.log('nothing')
         }
       });
     }

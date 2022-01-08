@@ -15,7 +15,6 @@ export class ChartsComponent implements OnInit {
   ngOnInit(): void {
     this.dataService.loadData().subscribe(data => {
       this.stats = data;
-      console.log(this.stats);
 
       const xAxisData = [];
       const data1 = [];
